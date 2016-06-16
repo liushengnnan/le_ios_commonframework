@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2218B2FA1D128DCC007D20EA /* XUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2218B2F91D128DCC007D20EA /* XUIButton.m */; };
 		223D2B4E1D12801D00D5DCAB /* CommonFramework.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 223D2B4D1D12801D00D5DCAB /* CommonFramework.h */; };
 		223D2B501D12801D00D5DCAB /* CommonFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 223D2B4F1D12801D00D5DCAB /* CommonFramework.m */; };
 /* End PBXBuildFile section */
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2218B2F81D128DCC007D20EA /* XUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XUIButton.h; sourceTree = "<group>"; };
+		2218B2F91D128DCC007D20EA /* XUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XUIButton.m; sourceTree = "<group>"; };
 		223D2B4A1D12801D00D5DCAB /* libCommonFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCommonFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		223D2B4D1D12801D00D5DCAB /* CommonFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonFramework.h; sourceTree = "<group>"; };
 		223D2B4F1D12801D00D5DCAB /* CommonFramework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonFramework.m; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 			children = (
 				223D2B4D1D12801D00D5DCAB /* CommonFramework.h */,
 				223D2B4F1D12801D00D5DCAB /* CommonFramework.m */,
+				2218B2F81D128DCC007D20EA /* XUIButton.h */,
+				2218B2F91D128DCC007D20EA /* XUIButton.m */,
 			);
 			path = CommonFramework;
 			sourceTree = "<group>";
@@ -122,6 +127,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2218B2FA1D128DCC007D20EA /* XUIButton.m in Sources */,
 				223D2B501D12801D00D5DCAB /* CommonFramework.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +254,7 @@
 				223D2B551D12801D00D5DCAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
